@@ -10,5 +10,10 @@ Home
 {% endblock content %}
 
 {% block scripts %}
-<script src="{% static 'js/main.js' %}" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        console.log("working from home")
+    })
+
+</script>
 {% endblock scripts %}
